@@ -1,7 +1,7 @@
 # shroomspaceindustries
 University project about web design
 
-Roberto
-Marco
-Andrea
-Giacomo
+Roberto ROB Milan
+Marco CAR Carfizzi
+Andrea DOC Ottolino
+Giacomo ARR Arrigo
