@@ -158,7 +158,7 @@
 														   </form>
 													  </div>
 													  <div class="bottom text-center">
-														  Nuovo? <a href="registrazione.html"><b>Registrati!</b></a>
+														  Nuovo? <a href="#"><b>Registrati!</b></a>
 														</div>
 													</div>
 											   </li>
@@ -172,87 +172,128 @@
 	</header>
 
 	<section>
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
-		
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img src="img/img1.jpg" alt="...">
-					<div class="carousel-caption">
-						<!-- niente -->
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/img2.jpg" alt="...">
-					<div class="carousel-caption">
-						<!-- niente -->
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/img3.jpg" alt="...">
-					<div class="carousel-caption">
-						<!-- niente -->
-					</div>
-				</div>
-			</div>
-		
-			<div class="carousel-caption">
-				<p><a class="btn btn-lg btn-primary" href="#" role="button">Vai alle esperienze</a></p>
-			</div>
+            <div class="container">
+                    <div class="row">
+                    <form class="form-horizontal">
+                <fieldset>
+		<!-- Form Name -->
+            <legend>Registrati!</legend>
 
-			<!-- Controls -->
-			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Precedente</span>
-			</a>
-			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Successivo</span>
-			</a>
-		</div>
+            <!-- Text input-->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="Name">Username</label>  
+            <div class="col-md-5">
+            <input id="Name" name="Name" type="text" placeholder="Username" class="form-control input-md" required="">
+                
+            </div>
+            </div>
 
-		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/RtU_mdL2vBM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-		</div>
+            <!-- Password input-->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="passwordinput">Password</label>
+            <div class="col-md-5">
+                <input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md" required="">
+                <span class="help-block">Massimo 16 caratteri</span>
+            </div>
+            </div>
 
-		<div class="container">
-			
+            <!-- Password input-->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="confirm_password">Conferma la Password</label>
+            <div class="col-md-5">
+                <input id="confirm_password" name="confirm_password" type="password" placeholder="Re-inserisci la password" class="form-control input-md" required="">
+                
+            </div>
+            </div>
 
-		<div class="row">
-			<div class="col-md-6">
-				<h1>News Recenti</h1>
+            <!-- Multiple Radios (inline) -->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="gender">Genere</label>
+            <div class="col-md-4"> 
+                <label class="radio-inline" for="gender-0">
+                <input type="radio" name="gender" id="gender-0" value="Maschio" checked="checked">
+                Maschio
+                </label> 
+                <label class="radio-inline" for="gender-1">
+                <input type="radio" name="gender" id="gender-1" value="Femmina">
+                Femmina
+                </label>
+                <label class="radio-inline" for="gender-1">
+                <input type="radio" name="gender" id="gender-2" value="Altro">
+                Altro
+                </label>
+            </div>
+            </div>
 
-				<h2>Subheading</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+            <!-- Textarea -->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="address">Indirizzo</label>
+            <div class="col-md-4">                     
+                <textarea class="form-control" id="address" name="address" placeholder="Via, Piazza"></textarea>
+            </div>
+            </div>
 
-				<h2>Subheading</h2>
-				<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+            <!-- Select Basic -->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="country">Paese</label>
+            <div class="col-md-5">
+                <select id="country" name="country" class="form-control">
+                <option value="Italia">Italia</option>
+                <option value="Stati Uniti d'America">Stati Uniti d'America</option>
+                <option value="Cina">Cina</option>
+                <option value="Russia">Russia</option>
+                <option value="India">India</option>
+                <option value="">Altro</option>
+                </select>
+            </div>
+            </div>
 
-				<h2>Subheading</h2>
-				<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-			</div>
+            <!-- Text input-->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="mobilenumber">Numero di telefono</label>  
+            <div class="col-md-5">
+            <input id="mobilenumber" name="mobilenumber" type="text" placeholder="Numero di telefono" class="form-control input-md" required="">
+                
+            </div>
+            </div>
 
-			<div class="col-md-6">
-				<h1>Novità dal blog</h1>
+            <!-- Text input-->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="emailId">Indirizzo email</label>  
+            <div class="col-md-6">
+            <input id="emailId" name="emailId" type="text" placeholder="utente@dominio.it" class="form-control input-md" required="">
+                
+            </div>
+            </div>
 
-				<h2>Subheading</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-				<h2>Subheading</h2>
-				<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+            <!-- Prepended checkbox -->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="check_critiria">Check the box</label>
+            <div class="col-md-6">
+                <div class="input-group">
+                <span class="input-group-addon">     
+                    <input type="checkbox">    
+                    <p>Accetto i termini di utilizzo del sito</p> 
+                </span>
+                
+                </div>
+                
+            </div>
+            </div>
 
-				<h2>Subheading</h2>
-				<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-			</div>
-		</div>
+            <!-- Button -->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="submit"></label>
+            <div class="col-md-4">
+                <button id="submit" name="submit" class="btn btn-success" action="index.html">Fatto!</button>
+            </div>
+            </div>
 
-	</div>
+            </fieldset>
+            </form>
+                </div>
+            </div>
 	</section>
 
 	<footer>
