@@ -1,8 +1,16 @@
-/* CUSTOMIZE THE CAROUSEL */
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
   padding-top: 50px;
+  padding-bottom: 60px;
 }
+
+/* CUSTOMIZE THE CAROUSEL */
 
 /* Carousel base class */
 .carousel {
@@ -60,8 +68,6 @@ body {
 /*Roba per il footer*/
 .footer {
   position: absolute;
-  right: 0;
   bottom: 0;
-  left: 0;
-  text-align: center;
+  width: 100%;
 }
