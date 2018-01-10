@@ -65,9 +65,3 @@ body {
       border-top:0 none;
   }
 }
-/*Roba per il footer*/
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
