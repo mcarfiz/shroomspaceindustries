@@ -15,6 +15,10 @@
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
 	 crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	 
 </head>
 
 <body>
@@ -30,7 +34,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="indexlogged.html">Shroom Space Ind.</a>
+					<a class="navbar-brand" href="#">Shroom Space Ind.</a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
@@ -77,7 +81,7 @@
 							</li>
 							<!-- Blog -->
 							<li>
-								<a href="blog.html">Blog</a>
+								<a href="blog/">Blog</a>
 							</li>
 							<!-- Multimedia -->
 							<li class="dropdown">
@@ -131,19 +135,39 @@
 									</li>
 								</ul>
 							</li>
-							<!-- Username -->
+							<!-- Login form -->
 							<li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-haspopup="true" aria-expanded="false">Benvenuto, admin
-                                    <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="user.html">Pagina utente</a>
-                                    </li>
-                                    <li>
-                                        <a href="index.html">Logout</a>
-                                    </li>
-                                </ul>
-                            </li>
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+									  <ul id="login-dp" class="dropdown-menu">
+										  <li>
+											   <div class="row">
+														   <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+																  <div class="form-group">
+																	   <label class="sr-only" for="exampleInputEmail2">Indirizzo email</label>
+																	   <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Indirizzo email" required>
+																  </div>
+																  <div class="form-group">
+																	   <label class="sr-only" for="exampleInputPassword2">Password</label>
+																	   <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+																	   <div class="help-block text-right"><a href="">Non ricordi la password?</a></div>
+																  </div>
+																  <div class="form-group">
+																	  <a href="indexlogged.html"><input type="button" class="btn btn-primary btn-block" value="Vai!"></button></a>
+																  </div>
+																  <div class="checkbox">
+																	   <label>
+																	   <input type="checkbox"> tienimi collegato
+																	   </label>
+																  </div>
+														   </form>
+													  </div>
+													  <div class="bottom text-center">
+														  Nuovo? <a href="registrazione.html"><b>Registrati!</b></a>
+														</div>
+													</div>
+											   </li>
+										   </ul>
+									   </li>
 					</ul>
 				</div>
 				<!--/.nav-collapse -->
@@ -151,44 +175,32 @@
 		</nav>
 	</header>
 
-	<section>
-            <div class="container">
-                    <div class="row">
-                    <form class="form-horizontal">
-                <fieldset>
-		<!-- Form Name -->
-			<ol class="breadcrumb">
-				<li><a href="indexlogged.html">Home</a></li>
-				<li class="active">Pagina utente</li>
-		  	</ol>
-            <legend>Benvenuto, admin!</legend>
-
-            <!-- Nome-->
-            <div class="form-group">
-            <label class="col-md-4">Nome: Mario</label>  
-            <div class="col-md-5"> 
-            </div>
-            </div>
-
-            <!-- Cognome-->
-            <div class="form-group">
-            <label class="col-md-4">Cognome: Rossi</label>
-            <div class="col-md-5">
-            </div>
-            </div>
-            <!-- Email-->
-            <div class="form-group">
-            <label class="col-md-4">Email: admin@shroomind.com</label>
-            <div class="col-md-5">
-            </div>
-            </div>
-            <!-- Lista prenotazioni-->
-            <div class="panel panel-primary">
-                    <div class="panel-heading">Lista delle esperienze prenotate</div>
-                    <div class="panel-body"><a href="#esperienza">Panel Content</a></div>
-            </div>
-
-            
+	<section class="container-fluid">
+		<h2 class="text-center">SCRIVICI</h2>
+		<div class="row">
+			<div class="col-sm-5">
+				<p>Contact us and we'll get back to you within 24 hours.</p>
+				<p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+				<p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+				<p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+			</div>
+			<div class="col-sm-7 slideanim">
+				<div class="row">
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+					</div>
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+					</div>
+				</div>
+				<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+				<div class="row">
+					<div class="col-sm-12 form-group">
+						<button class="btn btn-default pull-right" type="submit">Send</button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<footer class="footer">
