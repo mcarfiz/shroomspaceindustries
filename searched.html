@@ -132,7 +132,7 @@
 								</ul>
 							</li>
 							<!-- Ricerca -->
-							<li>
+							<li class="active">
 								<a href="ricercaglobale.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Ricerca</a>
 							</li>
 							<!-- Login form -->
@@ -176,117 +176,75 @@
 	</header>
 
 	<section>
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
-		
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img src="img/img1.jpg" alt="...">
-					<div class="carousel-caption">
-						<!-- niente -->
+        <div class="container">
+
+                <div class="starter-template">
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="ricercaglobale.html">Ricerca</a></li>
+						<li class="active">Risultati</li>
+                    </ol>
+                    <h2>Vediamo cosa ho trovato!</h2>
+                    <div class="alert alert-info" role="alert">
+						<a href="#" class="alert-link">Ecco i tuoi risultati:</a>
 					</div>
-				</div>
-				<div class="item">
-					<img src="img/img2.jpg" alt="...">
-					<div class="carousel-caption">
-						<!-- niente -->
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/img3.jpg" alt="...">
-					<div class="carousel-caption">
-						<!-- niente -->
-					</div>
-				</div>
-			</div>
-		
-			<div class="carousel-caption">
-				<p><a class="btn btn-lg btn-primary" href="#" role="button">Vai alle esperienze</a></p>
-			</div>
-
-			<!-- Controls -->
-			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Precedente</span>
-			</a>
-			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Successivo</span>
-			</a>
-		</div>
-
-		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/RtU_mdL2vBM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-		</div>
-
-		<div class="container">
-			
-
-		<div class="row">
-			<div class="col-md-6">
-				<h1>News Recenti</h1>
-
-				<h2>Subheading</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-				<h2>Subheading</h2>
-				<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-				<h2>Subheading</h2>
-				<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-			</div>
-
-			<div class="col-md-6">
-				<h1>Novità dal blog</h1>
-
-				<h2>Subheading</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-				<h2>Subheading</h2>
-				<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-				<h2>Subheading</h2>
-				<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-			</div>
-		</div>
-
-	</div>
+                    <div class="jumbotron">
+                            <div class="media">
+                                    <a href="blog.html#ricercato1">
+                                    <div class="media-left">
+                                        <img class="media-object img-thumbnail" width="100" height="50" src="img/starwars.png" alt="trumpet">
+                                    </div>
+                                    <div class="media-body">
+                                      <h4 class="media-heading">Come procede la guerra? - Blog</h4>
+                                      Il maestro Jedi Qui-Gon Jinn e il suo padawan Obi-Wan Kenobi vengono inviati... Continua nel Blog
+                                    </div>
+                                    </a>
+                            </div>
+                            <div class="media">
+                                    <a href="#fotogallery">
+                                    <div class="media-left">
+                                        <img class="media-object img-thumbnail" width="100" height="50" src="img/spaceit.jpg" alt="trumpet">
+                                    </div>
+                                    <div class="media-body">
+                                      <h4 class="media-heading"> - Foto gallery</h4>
+                                      Apri nella foto gallery
+                                    </div>
+                                    </a>
+                            </div>
+                    </div>
+                </div>
+        </div><!-- /.container -->
 	</section>
 
-	<footer class="footer">
-		<nav class="navbar-inverse">
+	<footer>
+		<nav class="navbar navbar-inverse navbar-static-bottom">
 			<div class="container">
-				<ul class="nav navbar-nav">
-					<li>
-						<a href="#facebook">Facebook</a>
-					</li>
-					<li>
-						<a href="#Twitter">Twitter</a>
-					</li>
-					<li>
-						<a href="#LinkedIn">LinkedIn</a>
-					</li>
-					<li>
-						<a href="#YouTube">YouTube</a>
-					</li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<a href="#facebook">Mappa sito</a>
-					</li>
-					<li>
-						<a href="#Twitter">Privacy Policy</a>
-					</li>
-					<li>
-						<a href="#LinkedIn">Copyright</a>
-					</li>
-				</ul>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#facebook">Facebook</a>
+						</li>
+						<li>
+							<a href="#Twitter">Twitter</a>
+						</li>
+						<li>
+							<a href="#LinkedIn">LinkedIn</a>
+						</li>
+						<li>
+							<a href="#YouTube">YouTube</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#facebook">Mappa sito</a>
+						</li>
+						<li>
+							<a href="#Twitter">Privacy Policy</a>
+						</li>
+						<li>
+							<a href="#LinkedIn">Copyright</a>
+						</li>
+					</ul>
 			</div>
 		</nav>
 	</footer>

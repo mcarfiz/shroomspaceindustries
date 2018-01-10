@@ -64,9 +64,3 @@ body {
     padding-bottom: 300px;
   }
 }
-/*Roba per il footer*/
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
