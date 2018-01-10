@@ -27,3 +27,41 @@ body {
 .navbar.navbar-inverse.navbar-static-bottom {
   margin-bottom: 0;
 }
+
+/* Login related stuff*/
+#login-dp{  
+  min-width: 250px;
+  padding: 30px 30px 0;
+  overflow:hidden;
+  background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+  font-size:12px    
+}
+#login-dp .bottom{
+  border-top:1px solid #ddd;
+  clear:both;
+  padding:14px;
+}
+#login-dp .form-group {
+  margin-bottom: 10px;
+}
+
+@media(max-width:768px){
+  #login-dp{
+      background-color: inherit;
+      color: #fff;
+  }
+  #login-dp .bottom{
+      background-color: inherit;
+      border-top:0 none;
+  }
+}
+/*Roba per il footer*/
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
