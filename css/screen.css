@@ -32,10 +32,6 @@ body {
 	margin: 0 auto;
 }
 
-.navbar.navbar-inverse.navbar-static-bottom {
-  margin-bottom: 0;
-}
-
 /* Login related stuff*/
 #login-dp{  
   min-width: 250px;
@@ -63,6 +59,9 @@ body {
   #login-dp .bottom{
       background-color: inherit;
       border-top:0 none;
+  }
+  body {
+    padding-bottom: 300px;
   }
 }
 /*Roba per il footer*/
