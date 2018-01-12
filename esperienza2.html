@@ -134,39 +134,17 @@
             <li>
               <a href="ricercaglobale.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Ricerca</a>
             </li>
-            <!-- Login form -->
+            <!-- Utente -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Benvenuto, user!
                 <span class="caret"></span>
               </a>
-              <ul id="login-dp" class="dropdown-menu">
+              <ul class="dropdown-menu">
                 <li>
-                  <div class="row">
-                    <form class="navbar-form" role="form" method="get" action="indexlogged.html" accept-charset="UTF-8" id="login-nav">
-                      <div class="form-group">
-                        <label class="sr-only" for="loginEmail">Indirizzo email</label>
-                        <input type="email" class="form-control" id="loginEmail" placeholder="Indirizzo email" required>
-                      </div>
-                      <div class="form-group">
-                        <label class="sr-only" for="loginPassword">Password</label>
-                        <input type="password" class="form-control" id="loginPassword" placeholder="Password" required>
-                        <div class="help-block text-right"><a href="">Non ricordi la password?</a></div>
-                      </div>
-                      <div>
-                        <label class="sr-only" for="loginSubmit">Indirizzo email</label>
-                        <input type="submit" class="btn btn-primary btn-block" id="loginSubmit" value="Vai!">
-                      </div>
-                      <hr>
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> Resta collegato
-                        </label>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="bottom text-center">
-                    Nuovo? <a href="registrazione.html"><b>Registrati!</b></a>
-                  </div>
+                  <a href="user.html">Profilo utente</a>
+                </li>
+                <li>
+                  <a href=".">Logout</a>
                 </li>
               </ul>
             </li>
@@ -177,28 +155,22 @@
 
 		<main>
             <div class="container">
-            <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="esperienze.html">Esperienze</a></li>
-                    <li class="active">Esperienza</li>
-            </ol>
-
-            <h1>Missione circumlunare</h1>
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Informazioni</h2>
-                    <p>Solo 24 persone hanno lasciato l'orbita terrestre e si sono avventurate verso la Luna. Le ultime persone ad aver toccato il suolo lunare furono Gene Cernan e Harrison Schmitt, che lo abbandonarono il 14 Dicembre 1972 per tornare sulla Terra grazie alla nave Apollo. Nessuno è più stato così vicino alla Luna. Noi cambieremo tutto ciò.</p>
-                </div>
-        
-                <div class="col-md-6">
-                    <h2>Acquista</h2>
-                    <p>Unisciti a noi e diventa un pioniere dell'orlo esterno.</p>
-                    <p>Effettua il log-in oppure registra un account in pochi minuti per procedere con l'acquisto.</p>
+                <ol class="breadcrumb">
+                        <li><a href="indexlogged.html">Home</a></li>
+                        <li><a href="esperienze_logged.html">Esperienze</a></li>
+                        <li class="active">Esperienza</li>
+                </ol>
+                <h1>Missione circumlunare</h1>
+                <h3>Solo 24 persone hanno lasciato l'orbita terrestre e si sono avventurate verso la Luna. Le ultime persone ad aver toccato il suolo lunare furono Gene Cernan e Harrison Schmitt, che lo abbandonarono il 14 Dicembre 1972 per tornare sulla Terra grazie alla nave Apollo. Nessuno è più stato così vicino alla Luna. Noi cambieremo tutto ciò.</h3>
+                <div class="row">
                     <div class="col-md-6">
-                        <a href="registrazione_exp.html"><button class="btn btn-success btn-lg">Registrati ora</button></a>
+                        
+                    </div>
+            
+                    <div class="col-md-6">
+                        
                     </div>
                 </div>
-            </div>
             </div>
 			<section id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!-- Indicators -->
@@ -252,22 +224,30 @@
 
 
 		<section>
-                <img class="media-object" src="img/banner.jpg" data-toggle="collapse" data-target="#info" width="100%" height="250px">
-				<div id="info" class="collapse">
-					<div class="jumbotron container">
-							<div class="row">
-									<div class="col-md-6">
-                                            <h2>Maggiori informazioni</h2>
-                                            <p>Usando veicoli spaziali russi collaudati per effettuare la rotta di Kessel in meno di 12 parsec, faremo volare una coppia di persone e un cosmonauta professionista su una traiettoria di ritorno libera intorno al lato più lontano della Luna. Arriveranno a meno di 100 km dalla superficie della Luna. Se scegli di unirti a questa missione circumlunare, vedrai il lato più illuminato della Luna, e poi assisterete alla straordinaria vista della Terra che si eleva sopra la superficie della Luna.</p>
-											
-									</div>
-									<div class="col-md-6">
-                                        <h2>Prezzo</h2>
-                                        <p>Tariffa standard comprensiva di tutte le spese: 5.000.000 USD$</p>
-									</div>
-							</div>
-					</div>
-				<!--</div>-->
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-4">
+            <h2>Informazioni</h2>
+            <p>Usando veicoli spaziali russi collaudati per effettuare la rotta di Kessel in meno di 12 parsec, faremo volare una coppia di persone e un cosmonauta professionista su una traiettoria di ritorno libera intorno al lato più lontano della Luna. Arriveranno a meno di 100 km dalla superficie della Luna. Se scegli di unirti a questa missione circumlunare, vedrai il lato più illuminato della Luna, e poi assisterete alla straordinaria vista della Terra che si eleva sopra la superficie della Luna.</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Requisiti</h2>
+            <p>I partecipanti dovranno sottoporsi a un controllo medico preliminare, e il giorno precedente all'imbarco sarà necessario effettuare un addestramento presso il sito di lancio.</p>
+            <h2>Prezzo</h2>
+            <p>Tariffa standard comprensiva di tutte le spese: 5.000.000 USD$</p>
+          </div>  
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 text-center">
+
+            <a href="registrazione.html"><button class="btn btn-success btn-lg">Registrati per acquistare</button></a>
+        </div>
+        </div>            
+      </div>          
+
       </section>
 		</main>
 
