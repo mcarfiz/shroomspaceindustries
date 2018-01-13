@@ -1,3 +1,5 @@
+/* GENERAL */
+
 html {
   position: relative;
   min-height: 100%;
@@ -8,13 +10,13 @@ body {
   padding-bottom: 60px;
 }
 
-/* CUSTOMIZE THE CAROUSEL */
 
-/* Carousel base class */
+/* CAROUSEL */
+
 .carousel {
   height: 500px;
 }
-/* Declare heights because of positioning of img element */
+
 .carousel .item {
   height: 500px;
   background-color: #777;
@@ -24,7 +26,9 @@ body {
 	margin: 0 auto;
 }
 
-/* Login related stuff*/
+
+/* LOGIN */
+
 #login-dp{  
   min-width: 250px;
   padding: 30px 30px 0;
@@ -43,15 +47,32 @@ body {
   margin-bottom: 10px;
 }
 
+/* FOOTER */
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
+
+/* SUBNAV */
+
 .breadcrumb {
   margin-top: 10px;
 }
+
+
+/* VIDEO */
+
+iframe {
+  width: 100%;
+	height: 500px;
+	margin: 0 auto;
+}
+
+
+/* SMARTPHONES */
 
 @media(max-width:768px){
   #login-dp{
@@ -65,10 +86,4 @@ body {
   body {
     padding-bottom: 300px;
   }
-}
-
-iframe {
-  width: 100%;
-	height: 500px;
-	margin: 0 auto;
 }
