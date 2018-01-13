@@ -181,121 +181,131 @@
 				<li class="active">Registrazione</li>
 			</ol>
 
-			<div class="container">
-				<div class="row">
-					<form class="form-horizontal">
-						<fieldset>
-							<!-- Form Name -->
-							<legend>Registrati!</legend>
+			<div class="panel panel-default">
 
-							<!-- Text input-->
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="Name">Username</label>  
-								<div class="col-sm-5">
-									<input id="Name" name="Name" type="text" placeholder="Username" class="form-control input-md" required="">
-								</div>
-							</div>
+				<header class="panel-heading">
+					<h1>
+						Registrati!
+					</h1>
+					<p class="lead">Potrai così usufruire dei nostri servizi!</p>
+				</header>
 
-							<!-- Password input-->
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="passwordinput">Password</label>
-								<div class="col-sm-5">
-									<input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md" required="">
-									<span class="help-block">Massimo 16 caratteri</span>
-								</div>
-							</div>
+				<div class="panel-body">
+					<div class="row">
+						<form class="form-horizontal">
+							<fieldset>
+								<!-- Form Name -->
+								<!-- <legend>Registrati!</legend> -->
 
-							<!-- Password input-->
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="confirm_password">Conferma la Password</label>
-								<div class="col-sm-5">
-									<input id="confirm_password" name="confirm_password" type="password" placeholder="Re-inserisci la password" class="form-control input-md" required="">
-								</div>
-							</div>
-
-							<!-- Multiple Radios (inline) -->
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="gender">Genere</label>
-								<div class="col-sm-4"> 
-									<label class="radio-inline" for="gender-0">
-										<input type="radio" name="gender" id="gender-0" value="Maschio" checked="checked">
-										Maschio
-									</label> 
-									<label class="radio-inline" for="gender-1">
-										<input type="radio" name="gender" id="gender-1" value="Femmina">
-										Femmina
-									</label>
-									<label class="radio-inline" for="gender-1">
-										<input type="radio" name="gender" id="gender-2" value="Altro">
-										Altro
-									</label>
-								</div>
-							</div>
-
-							<!-- Textarea -->
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="address">Indirizzo</label>
-								<div class="col-sm-4">                     
-									<textarea class="form-control" id="address" name="address" placeholder="Via, Piazza"></textarea>
-								</div>
-							</div>
-
-							<!-- Select Basic -->
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="country">Paese</label>
-								<div class="col-sm-5">
-									<select id="country" name="country" class="form-control">
-										<option value="Italia">Italia</option>
-										<option value="Stati Uniti d'America">Stati Uniti d'America</option>
-										<option value="Cina">Cina</option>
-										<option value="Russia">Russia</option>
-										<option value="India">India</option>
-										<option value="">Altro</option>
-									</select>
-								</div>
-							</div>
-
-							<!-- Text input-->
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="mobilenumber">Numero di telefono</label>  
-								<div class="col-sm-5">
-									<input id="mobilenumber" name="mobilenumber" type="text" placeholder="Numero di telefono" class="form-control input-md" required="">
-								</div>
-							</div>
-
-							<!-- Text input-->
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="emailId">Indirizzo email</label>  
-								<div class="col-sm-5">
-									<input id="emailId" name="emailId" type="text" placeholder="utente@dominio.it" class="form-control input-md" required="">
-								</div>
-							</div>
-
-							<!-- Prepended checkbox -->
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="check_critiria"></label>
-								<div class="col-sm-5">
-									<div class="input-group">
-										<span class="input-group-addon">     
-											<input type="checkbox" required="">    
-											<p>Accetto i termini di utilizzo del sito</p> 
-										</span>
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-sm-4 control-label" for="Name">Username</label>  
+									<div class="col-sm-5">
+										<input id="Name" name="Name" type="text" placeholder="Username" class="form-control input-md" required="">
 									</div>
 								</div>
-							</div>
 
-							<!-- Button -->
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="submit"></label>
-								<div class="col-sm-4">
-									<a href="indexlogged.html">
-										<input type="button" class="btn btn-success btn-block" value="Vai!"></button>
-									</a>
+								<!-- Password input-->
+								<div class="form-group">
+									<label class="col-sm-4 control-label" for="passwordinput">Password</label>
+									<div class="col-sm-5">
+										<input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md" required="">
+										<span class="help-block">Massimo 16 caratteri</span>
+									</div>
 								</div>
-							</div>
 
-						</fieldset>
-					</form>
+								<!-- Password input-->
+								<div class="form-group">
+									<label class="col-sm-4 control-label" for="confirm_password">Conferma la Password</label>
+									<div class="col-sm-5">
+										<input id="confirm_password" name="confirm_password" type="password" placeholder="Re-inserisci la password" class="form-control input-md" required="">
+									</div>
+								</div>
+
+								<!-- Multiple Radios (inline) -->
+								<div class="form-group">
+									<label class="col-sm-4 control-label" for="gender">Genere</label>
+									<div class="col-sm-4"> 
+										<label class="radio-inline" for="gender-0">
+											<input type="radio" name="gender" id="gender-0" value="Maschio" checked="checked">
+											Maschio
+										</label> 
+										<label class="radio-inline" for="gender-1">
+											<input type="radio" name="gender" id="gender-1" value="Femmina">
+											Femmina
+										</label>
+										<label class="radio-inline" for="gender-1">
+											<input type="radio" name="gender" id="gender-2" value="Altro">
+											Altro
+										</label>
+									</div>
+								</div>
+
+								<!-- Textarea -->
+								<div class="form-group">
+									<label class="col-sm-4 control-label" for="address">Indirizzo</label>
+									<div class="col-sm-4">                     
+										<textarea class="form-control" id="address" name="address" placeholder="Via, Piazza"></textarea>
+									</div>
+								</div>
+
+								<!-- Select Basic -->
+								<div class="form-group">
+									<label class="col-sm-4 control-label" for="country">Paese</label>
+									<div class="col-sm-5">
+										<select id="country" name="country" class="form-control">
+											<option value="Italia">Italia</option>
+											<option value="Stati Uniti d'America">Stati Uniti d'America</option>
+											<option value="Cina">Cina</option>
+											<option value="Russia">Russia</option>
+											<option value="India">India</option>
+											<option value="">Altro</option>
+										</select>
+									</div>
+								</div>
+
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-sm-4 control-label" for="mobilenumber">Numero di telefono</label>  
+									<div class="col-sm-5">
+										<input id="mobilenumber" name="mobilenumber" type="text" placeholder="Numero di telefono" class="form-control input-md" required="">
+									</div>
+								</div>
+
+								<!-- Text input-->
+								<div class="form-group">
+									<label class="col-sm-4 control-label" for="emailId">Indirizzo email</label>  
+									<div class="col-sm-5">
+										<input id="emailId" name="emailId" type="email" placeholder="utente@dominio.it" class="form-control input-md" required="">
+									</div>
+								</div>
+
+								<!-- Prepended checkbox -->
+								<div class="form-group">
+									<label class="col-sm-4 control-label" for="check_critiria"></label>
+									<div class="col-sm-5">
+										<div class="input-group">
+											<span class="input-group-addon checkbox">     
+												<input type="checkbox" required="">    
+												Accetto i termini di utilizzo del sito
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<!-- Button -->
+								<div class="form-group">
+									<label class="col-sm-4 control-label" for="submit"></label>
+									<div class="col-sm-4">
+										<a href="indexlogged.html">
+											<input type="button" class="btn btn-success btn-block" value="Vai!">
+										</a>
+									</div>
+								</div>
+
+							</fieldset>
+						</form>
+					</div>
 				</div>
 			</div>
 		</main>
