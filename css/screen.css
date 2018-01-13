@@ -6,10 +6,23 @@ html {
 }
 
 body {
+  height: 100%;
   padding-top: 50px;
   padding-bottom: 60px;
+  background: #2B2B2B url("./img/bg_pattern.png") !important; 
+  background-size: cover;
 }
 
+/*
+  BACKGROUND
+
+  Per ora non funziona il pattern
+
+  OLD_ #3B3738
+  NEW_ #2B2B2B
+
+
+*/
 
 /* CAROUSEL */
 
