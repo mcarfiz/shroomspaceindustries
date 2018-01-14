@@ -184,56 +184,84 @@
 	</nav>
 
 	<main class="container">
+
 		<ol class="breadcrumb">
 			<li><a href="index.html">Home</a></li>
-			<li><a href="foto.html">Foto Gallery</a></li>
-			<li class="active">Filtro</li>
+			<li class="active">Video Gallery</li>
 		</ol>
-		
+
 		<div class="panel panel-default">
 			<header class="panel-heading">
 				<h1>
-					Space Shroom Foto Gallery
+				<!-- <i class="fa fa-camera-retro" aria-hidden="true"></i> -->
+					Space Shroom Video Gallery
 				</h1>
-				<p class="lead">Galleria delle nostre foto.</p>
+				<p class="lead">Galleria dei nostri video.</p>
 			</header>
 
 			<div class="panel-body">
-				<div class="alert alert-success" role="alert">
-					<div class="row">
-						<div class="col-xs-12 col-sm-9">
-							<p>
-								Filtri applicati con successo
-							</p>
-						</div>
-						<div class="col-xs-6 col-xs-offset-6 col-sm-3 col-sm-offset-0">
-						<a href="foto.html">
-							<button href="#" class="btn btn-success btn-block">Elimina filtri</button>
-						</a>
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<button class="btn btn-primary" data-toggle="collapse" data-target="#filter">Esegui un filtro di ricerca</button>
+					</div>
+					<div id="filter" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-md-6">
+									<p>Che cosa ti interessa?</p>
+									<div class="checkbox">
+										<label><input type="checkbox" value="" checked>Space</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Universe</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="" checked>Astronauts</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="" checked>Earth</label>
+									</div>
+									<div class="checkbox">
+											<label><input type="checkbox" value="">Flight</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Sky</label>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<a href="videofiltrato.html"><button class="btn btn-success btn-lg">Applica</button></a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<section class="panel-body">
+
 				<div class="row">
+
 					<div class="col-lg-4 col-sm-6">
+
 						<div class="thumbnail">
-							<a href="foto1.html">
-								<img src="img/img3.jpg" alt="">
-							</a>
+							<h4>Titolo</h4>
+				         	<div class="embed-responsive embed-responsive-16by9 div_style">
+				        	    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9HdPi9Ikhk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				         	</div>
+
 							<div class="caption pull">
 								<small> Tags:</small>
 								<span class="btn label label-primary">Space</span>
 								<span class="btn label label-default">Universe</span>
 							</div>
-						</div>
+							</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="thumbnail">
-							<a href="#">
-								<img src="img/img3.jpg" alt="">
-							</a>
+							<h4>Titolo</h4>
+				         	<div class="embed-responsive embed-responsive-16by9 div_style">
+				        	    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9HdPi9Ikhk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				         	</div>
 							<div class="caption">
 								<small> Tags:</small>
 								<span class="btn label label-danger">Astronauts</span>
@@ -243,9 +271,10 @@
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="thumbnail">
-							<a href="#">
-								<img src="img/img3.jpg" alt="">
-							</a>
+							<h4>Titolo</h4>
+				         	<div class="embed-responsive embed-responsive-16by9 div_style">
+				        	    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9HdPi9Ikhk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				         	</div>
 							<div class="caption">
 								<small> Tags:</small>
 								<span class="btn label label-success">Earth</span>
@@ -254,9 +283,10 @@
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="thumbnail">
-							<a href="#">
-								<img src="img/img3.jpg" alt="">
-							</a>
+							<h4>Titolo</h4>
+				         	<div class="embed-responsive embed-responsive-16by9 div_style">
+				        	    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9HdPi9Ikhk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				         	</div>
 							<div class="caption">
 								<small> Tags:</small>
 								<span class="btn label label-success">Earth</span>
@@ -268,9 +298,10 @@
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="thumbnail">
-							<a href="#">
-								<img src="img/img3.jpg" alt="">
-							</a>
+							<h4>Titolo</h4>
+				         	<div class="embed-responsive embed-responsive-16by9 div_style">
+				        	    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9HdPi9Ikhk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				         	</div>
 							<div class="caption">
 								<small> Tags:</small>
 								<span class="btn label label-info">Sky</span>
@@ -278,16 +309,63 @@
 							</div>
 						</div>
 					</div>
-					
-					
-					
+					<div class="col-lg-4 col-sm-6">
+						<div class="thumbnail">
+							<h4>Titolo</h4>
+				         	<div class="embed-responsive embed-responsive-16by9 div_style">
+				        	    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9HdPi9Ikhk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				         	</div>
+							<div class="caption">
+								<small> Tags:</small>
+								<span class="btn label label-danger">Food</span>
+								<span class="btn label label-primary">Ipsum</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="thumbnail">
+							<h4>Titolo</h4>
+				         	<div class="embed-responsive embed-responsive-16by9 div_style">
+				        	    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9HdPi9Ikhk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				         	</div>
+							<div class="caption">
+								<small> Tags:</small>
+								<span class="btn label label-danger">Food</span>
+								<span class="btn label label-primary">Ipsum</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="thumbnail">
+							<h4>Titolo</h4>
+				         	<div class="embed-responsive embed-responsive-16by9 div_style">
+				        	    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9HdPi9Ikhk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				         	</div>
+							<div class="caption">
+								<small> Tags:</small>
+								<span class="btn label label-danger">Food</span>
+								<span class="btn label label-primary">Ipsum</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="thumbnail">
+							<h4>Titolo</h4>
+				         	<div class="embed-responsive embed-responsive-16by9 div_style">
+				        	    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9HdPi9Ikhk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				         	</div>
+							<div class="caption">
+								<small> Tags:</small>
+								<span class="btn label label-danger">Food</span>
+								<span class="btn label label-primary">Ipsum</span>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 
 		</div>
 	</main>
-
-
 
 	<footer class="footer">
 		<nav class="navbar-inverse">
