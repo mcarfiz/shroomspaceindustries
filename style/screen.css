@@ -13,15 +13,6 @@ body {
   background-size: cover;
 }
 
-/*
-  BACKGROUND
-
-  OLD_ #3B3738
-  NEW_ #2B2B2B
-
-
-*/
-
 /* CAROUSEL */
 
 .carousel-inner > .item > img {
@@ -75,11 +66,20 @@ iframe {
 
 /* SMARTPHONES */
 
-@media(max-width:768px){
+@media(max-width:991px){
   #login-dp{
       background-color: inherit;
       color: #fff;
   }
+
+  #login-dp .form-group {
+    width: 100%
+  }
+  
+  #login-dp .form-group input {
+    width: 100%
+  }
+
   #login-dp .bottom{
       background-color: inherit;
       border-top:0 none;
