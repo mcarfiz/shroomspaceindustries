@@ -8,12 +8,9 @@
     <meta name="viewport" content="width=devbice-width, initial-scale=1">
   
     <!-- STYLES -->
-    <link rel="stylesheet" href="css/screen.css">
-    <link rel="stylesheet" href="css/print.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-     crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-     crossorigin="anonymous">
+    <link rel="stylesheet" href="style/screen.css">
+    <link rel="stylesheet" href="style/print.css">
+    <link rel="stylesheet" href="style/bootstrap_local/css/bootstrap.min.css">
   </head>
 
   <body>
@@ -73,9 +70,9 @@
                 </li>
               </ul>
             </li>
-            <!-- News ed Eventi -->
+            <!-- News -->
             <li>
-              <a href="news.html">News ed Eventi</a>
+              <a href="news.html">News</a>
             </li>
             <!-- Blog -->
             <li>
@@ -137,7 +134,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                <span class="hidden-sm hidden-md hidden-lg"> Login</span>
+                <span class="hidden-md hidden-lg"> Login</span>
               </a>
               <ul id="login-dp" class="dropdown-menu">
                 <li>
@@ -174,7 +171,7 @@
             <li>
               <a href="ricercaglobale.html">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                <span class="hidden-sm hidden-md hidden-lg"> Cerca nel sito</span>
+                <span class="hidden-md hidden-lg"> Cerca nel sito</span>
               </a>
             </li>
           </ul>
@@ -186,8 +183,7 @@
 
       <ol class="breadcrumb">
 				<li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Sezione</a></li>
-        <li class="active">Pagina</li>
+        <li class="active">Mappa sito</li>
 			</ol>
       
       <div class="panel panel-default">
@@ -197,31 +193,57 @@
         
         <section class="panel-body">
 					<div class="jumbotron text">
-            <h2> <a href="#">Esperienze </a></h2>
-            <p><a href="esperienze.html">- Catalogo completo</a></p>
-            <p><a href="esperienza.html">- Missione circumlunare</a></p>
-            <p><a href="#">- Volo a gravità zero</a></p>
-            <p><a href="#">- Addestramento da astronauta</a></p>
-            <p><a href="#">- Visita la stazione spaziale</a></p>
-            <p><a href="#">- Assisti ad un lancio spaziale</a></p>
-            <p><a href="#">- Scopri le nostre tecnologie</a></p>
-            <p><a href="#">- Sicurezza</a></p><br>
-            <h2> <a href="news.html">News ed eventi</a></h2><br>
-            <h2> <a href="blog.html">Blog </a></h2><br>
-            <h2> <a href="#">Multimedia </a></h2>
-            <p><a href="foto.html">- Foto gallery</a></p>
-            <p><a href="video.html">- Video gallery</a></p><br>
-            <h2> <a href="partners.html">Partners</a></h2><br>
-            <h2> <a href="#">Chi siamo</a></h2><br>
-            <p><a href="vision.html">- Vision</a></p>
-            <p><a href="storia.html">- Storia</a></p>
-            <p><a href="team.html">- Il Team</a></p>
-            <p><a href="opportunita.html">- Opportunità lavorative</a></p><br>
-            <h2> <a href="#">Contatti</a></h2>
-            <p><a href="scrivici.html">- Scrivici</a></p>
-            <p><a href="mappa.html">- Dove trovarci</a></p><br>
-            <h2> <a href="registrazione.html">Registrazione</a></h2><br>
-            <h2> <a href="ricercaglobale.html">Ricerca globale</a></h2>
+            <ul>
+              <li>
+                <h2>Esperienze</h2>
+                <ul>
+                  <li><a href="esperienze.html">Catalogo completo</a></li>
+                  <li><a href="esperienza.html">Missione circumlunare</a></li>
+                  <li><a href="#">Volo a gravità zero</a></li>
+                  <li><a href="#">Addestramento da astronauta</a></li>
+                  <li><a href="#">Visita la stazione spaziale</a></li>
+                  <li><a href="#">Assisti ad un lancio spaziale</a></li>
+                  <li><a href="#">Scopri le nostre tecnologie</a></li>
+                  <li><a href="#">Sicurezza</a></li>
+                </ul>
+              </li>
+              <li>
+                <h2><a href="news.html">News</a></h2>
+              </li>
+              <li>
+                <h2>
+                  <a href="blog.html">Blog</a>
+                </h2>
+              </li>
+              <li>
+                <h2>Multimedia</h2>
+                <ul>
+                  <li><a href="foto.html">Foto gallery</a></li>
+                  <li><a href="video.html">Video gallery</a></li>
+                </ul>
+              </li>
+              <li>
+                <h2><a href="partners.html">Partners</a></h2>
+              </li>
+              <li>
+                <h2>Chi siamo</h2>
+                <ul>
+                  <li><a href="vision.html">Vision</a></li>
+                  <li><a href="storia.html">Storia</a></li>
+                  <li><a href="team.html">Il Team</a></li>
+                  <li><a href="opportunita.html">Opportunità lavorative</a></li>
+                </ul>
+              </li>
+              <li>
+                <h2>Contatti</h2>
+                <ul>
+                  <li><a href="scrivici.html">Scrivici</a></li>
+                  <li><a href="mappa.html">Dove trovarci</a></li>
+                </ul>
+              </li>
+              <li><h2><a href="registrazione.html">Registrazione</a></h2></li>
+              <li><h2><a href="ricercaglobale.html">Ricerca globale</a></h2></li>
+            </ul>
           </div>
         </section>
       </div>
@@ -245,14 +267,14 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#facebook">Mappa sito</a>
+            <li class="active">
+              <a href="mappasito.html">Mappa sito</a>
             </li>
             <li>
-              <a href="#Twitter">Privacy Policy</a>
+              <a href="privacy.html">Privacy Policy</a>
             </li>
             <li>
-              <a href="#LinkedIn">Copyright</a>
+              <a href="copyright.html">Copyright</a>
             </li>
           </ul>
         </div>
@@ -261,11 +283,7 @@
 
 
 	<!-- SCRIPTS -->
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-	 crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-	 crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="style/bootstrap_local/js/bootstrap.min.js"></script>
   </body>
 </html>
