@@ -156,48 +156,59 @@
       </div>
     </nav>
 
-    <main class="container">
+	<main class="container">
 
       <ol class="breadcrumb">
-          <li><a href="indexlogged.html">Home</a></li>
-          <li><a href="ricercaglobale_logged.html">Ricerca</a></li>
-          <li class="active">Risultati</li>
+        <li><a href="indexlogged.html">Home</a></li>
+        <li class="active">Ricerca</li>
       </ol>
-      
+
       <div class="panel panel-default">
         <header class="panel-heading">
-          <h1>Vediamo cosa ho trovato!</h1>
+          <h1>Cerchi qualcosa?</h1>
+          <p class="lead">Vediamo se possiamo aiutarti.</p>
         </header>
-
-        <div class="panel-body">
-          <div class="alert alert-info" role="alert">
-            <a href="#" class="alert-link">Ecco i tuoi risultati:</a>
+        <section class="panel-body">
+          <div class="jumbotron">
+            <div class="row">
+              <div class="col-md-6">
+                <p>Che cosa ti interessa?</p>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="" ch>Esperienze</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">News</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="" checked>Blog</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="" checked>Foto</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Video</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="usr">Qualcosa di specifico?</label>
+                  <input type="text" class="form-control" id="usr" placeholder="Scrivi cosa vorresti trovare" value="Spaziale">
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optradio" checked>Keyword</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optradio">Tag</label>
+                </div>
+                <div class="form-group">
+                  <a href="searched_logged.html"><input type="button" class="btn btn-primary btn-md" value="Vai!"></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="media">
-            <a href="blog_logged.html#ricercato1">
-              <div class="media-left">
-                <img class="media-object img-thumbnail" width="100" height="50" src="img/starwars.png" alt="trumpet">
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading">Come procede la guerra? - Blog</h4>
-                Il maestro Jedi Qui-Gon Jinn e il suo padawan Obi-Wan Kenobi vengono inviati... Continua nel Blog
-              </div>
-            </a>
-          </div>
-          <div class="media">
-            <a href="foto1_logged.html">
-              <div class="media-left">
-                <img class="media-object img-thumbnail" width="100" height="50" src="img/spaceit.jpg" alt="trumpet">
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading">Immagine - Foto gallery</h4>
-                Apri nella foto gallery
-              </div>
-            </a>
-          </div>
-        </div>
+        </section>
       </div>
-    </main>
+		</main>
 
 		<footer class="footer">
 			<nav class="navbar-inverse">
