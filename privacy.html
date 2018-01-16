@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="indexlogged.html">Shroom Space Ind.</a>
+          <a class="navbar-brand" href="index.html">Shroom Space Ind.</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -39,11 +39,11 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="esperienze_logged.html">Catalogo completo</a>
+                  <a href="esperienze.html">Catalogo completo</a>
                 </li>
                 <li role="separator" class="divider"></li>
                 <li>
-                  <a href="esperienza_logged.html">Missione circumlunare</a>
+                  <a href="esperienza.html">Missione circumlunare</a>
                 </li>
                 <li>
                   <a href="#">Volo a gravità zero</a>
@@ -72,11 +72,11 @@
             </li>
             <!-- News -->
             <li>
-              <a href="news_logged.html">News</a>
+              <a href="news.html">News</a>
             </li>
             <!-- Blog -->
             <li>
-              <a href="blog_logged.html">Blog</a>
+              <a href="blog.html">Blog</a>
             </li>
             <!-- Multimedia -->
             <li class="dropdown">
@@ -85,16 +85,16 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="foto_logged.html">Foto gallery</a>
+                  <a href="foto.html">Foto gallery</a>
                 </li>
                 <li>
-                  <a href="video_logged.html">Video gallery</a>
+                  <a href="video.html">Video gallery</a>
                 </li>
               </ul>
             </li>
             <!-- Partners -->
             <li>
-              <a href="partners_logged.html">Partners</a>
+              <a href="partners.html">Partners</a>
             </li>
             <!-- Chi siamo -->
             <li class="dropdown">
@@ -103,50 +103,73 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="vision_logged.html">Vision</a>
+                  <a href="vision.html">Vision</a>
                 </li>
                 <li>
-                  <a href="storia_logged.html">Storia</a>
+                  <a href="storia.html">Storia</a>
                 </li>
                 <li>
-                  <a href="team_logged.html">Il Team</a>
+                  <a href="team.html">Il Team</a>
                 </li>
                 <li>
-                  <a href="opportunita_logged.html">Opportunità lavorative</a>
+                  <a href="opportunita.html">Opportunità lavorative</a>
                 </li>
               </ul>
             </li>
             <!-- Contattaci -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contattaci
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contatti
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="scrivici_logged.html">Scrivici</a>
+                  <a href="scrivici.html">Scrivici</a>
                 </li>
                 <li>
-                  <a href="mappa_logged.html">Dove trovarci</a>
+                  <a href="mappa.html">Dove trovarci</a>
                 </li>
               </ul>
             </li>
             <!-- Utente -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Benvenuto, user!
-                <span class="caret"></span>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                <span class="hidden-md hidden-lg"> Login</span>
               </a>
-              <ul class="dropdown-menu">
+              <ul id="login-dp" class="dropdown-menu">
                 <li>
-                  <a href="user.html">Profilo utente</a>
-                </li>
-                <li>
-                  <a href=".">Logout</a>
+                  <div class="row">
+                    <form class="navbar-form" role="form" method="get" action="indexlogged.html" accept-charset="UTF-8" id="login-nav">
+                      <div class="form-group">
+                        <label class="sr-only" for="loginEmail">Indirizzo email</label>
+                        <input type="email" class="form-control" id="loginEmail" placeholder="Indirizzo email" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only" for="loginPassword">Password</label>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Password" required>
+                        <div class="help-block text-right"><a href="">Non ricordi la password?</a></div>
+                      </div>
+                      <div>
+                        <label class="sr-only" for="loginSubmit">Indirizzo email</label>
+                        <input type="submit" class="btn btn-primary btn-block" id="loginSubmit" value="Vai!">
+                      </div>
+                      <hr>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Resta collegato
+                        </label>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="bottom text-center">
+                    Nuovo? <a href="registrazione.html"><b>Registrati!</b></a>
+                  </div>
                 </li>
               </ul>
             </li>
             <!-- Ricerca -->
             <li>
-              <a href="ricercaglobale_logged.html">
+              <a href="ricercaglobale.html">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                 <span class="hidden-md hidden-lg"> Cerca nel sito</span>
               </a>
