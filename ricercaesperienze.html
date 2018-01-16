@@ -39,11 +39,11 @@
               </a>
               <ul class="dropdown-menu">
                 <li class="active">
-                  <a href="esperienze_logged.html">Catalogo completo</a>
+                  <a href="esperienze.html">Catalogo completo</a>
                 </li>
                 <li role="separator" class="divider"></li>
                 <li>
-                  <a href="esperienza_logged.html">Missione circumlunare</a>
+                  <a href="esperienza.html">Missione circumlunare</a>
                 </li>
                 <li>
                   <a href="#">Volo a gravità zero</a>
@@ -72,11 +72,11 @@
             </li>
             <!-- News -->
             <li>
-              <a href="news_logged.html">News</a>
+              <a href="news.html">News</a>
             </li>
             <!-- Blog -->
             <li>
-              <a href="blog_logged.html">Blog</a>
+              <a href="blog.html">Blog</a>
             </li>
             <!-- Multimedia -->
             <li class="dropdown">
@@ -85,16 +85,16 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="foto_logged.html">Foto gallery</a>
+                  <a href="foto.html">Foto gallery</a>
                 </li>
                 <li>
-                  <a href="video_logged.html">Video gallery</a>
+                  <a href="video.html">Video gallery</a>
                 </li>
               </ul>
             </li>
             <!-- Partners -->
             <li>
-              <a href="partners_logged.html">Partners</a>
+              <a href="partners.html">Partners</a>
             </li>
             <!-- Chi siamo -->
             <li class="dropdown">
@@ -103,16 +103,16 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="vision_logged.html">Vision</a>
+                  <a href="vision.html">Vision</a>
                 </li>
                 <li>
-                  <a href="storia_logged.html">Storia</a>
+                  <a href="storia.html">Storia</a>
                 </li>
                 <li>
-                  <a href="team_logged.html">Il Team</a>
+                  <a href="team.html">Il Team</a>
                 </li>
                 <li>
-                  <a href="opportunita_logged.html">Opportunità lavorative</a>
+                  <a href="opportunita.html">Opportunità lavorative</a>
                 </li>
               </ul>
             </li>
@@ -123,30 +123,53 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="scrivici_logged.html">Scrivici</a>
+                  <a href="scrivici.html">Scrivici</a>
                 </li>
                 <li>
-                  <a href="mappa_logged.html">Dove trovarci</a>
+                  <a href="mappa.html">Dove trovarci</a>
                 </li>
               </ul>
             </li>
-            <!-- Utente -->
+            <!-- Login form -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Benvenuto, user!
-                <span class="caret"></span>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                <span class="hidden-md hidden-lg"> Login</span>
               </a>
-              <ul class="dropdown-menu">
+              <ul id="login-dp" class="dropdown-menu">
                 <li>
-                  <a href="user.html">Profilo utente</a>
-                </li>
-                <li>
-                  <a href="index.html">Logout</a>
+                  <div class="row">
+                    <form class="navbar-form" role="form" method="get" action="indexlogged.html" accept-charset="UTF-8" id="login-nav">
+                      <div class="form-group">
+                        <label class="sr-only" for="loginEmail">Indirizzo email</label>
+                        <input type="email" class="form-control" id="loginEmail" placeholder="Indirizzo email" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only" for="loginPassword">Password</label>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Password" required>
+                        <div class="help-block text-right"><a href="">Non ricordi la password?</a></div>
+                      </div>
+                      <div>
+                        <label class="sr-only" for="loginSubmit">Indirizzo email</label>
+                        <input type="submit" class="btn btn-primary btn-block" id="loginSubmit" value="Vai!">
+                      </div>
+                      <hr>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Resta collegato
+                        </label>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="bottom text-center">
+                    Nuovo? <a href="registrazione.html"><b>Registrati!</b></a>
+                  </div>
                 </li>
               </ul>
             </li>
             <!-- Ricerca -->
             <li>
-              <a href="ricercaglobale_logged.html">
+              <a href="ricercaglobale.html">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                 <span class="hidden-md hidden-lg"> Cerca nel sito</span>
               </a>
@@ -159,7 +182,7 @@
     <main class="container">
 
 			<ol class="breadcrumb">
-				<li><a href="indexlogged.html">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li class="active">Esperienze</li>
 			</ol>
 
@@ -182,16 +205,28 @@
 
 						<aside class="col-sm-3">
 							<div class="panel panel-default">
-								<form class="panel-body" action="ricercaesperienze_logged.html">
+								<form class="panel-body" action="ricercaesperienze.html">
 									<label for="blogsearch">Cerca un'esperienza!</label> 
 									<input id="blogsearch" class="form-control" type="search" placeholder="Cerca...">
 								</form>
 							</div>
 						</aside>
 					</div>
-			
+			    <div class="alert alert-info" role="alert">
+            Ho trovato i seguenti articoli a seguito della tua ricerca!
+          </div>
 					<!-- Elenco esperienze -->
 					<div class="row">
+						<div class="col-lg-4">
+							<div class="thumbnail">
+								<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+								<div class="caption">
+									<h4>Esperienza</h4>
+									<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+									<p><a class="btn btn-default" href="esperienza.html" role="button">Dettagli esperienza &raquo;</a></p>
+								</div>
+							</div>
+						</div>
             <div class="col-lg-4">
               <div class="thumbnail">
                 <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
@@ -202,57 +237,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="thumbnail">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <div class="caption">
-                  <h4>Esperienza</h4>
-                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                  <p><a class="btn btn-default" href="esperienza.html" role="button">Dettagli esperienza &raquo;</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="thumbnail">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <div class="caption">
-                  <h4>Esperienza</h4>
-                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                  <p><a class="btn btn-default" href="esperienza.html" role="button">Dettagli esperienza &raquo;</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="thumbnail">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <div class="caption">
-                  <h4>Esperienza</h4>
-                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                  <p><a class="btn btn-default" href="esperienza.html" role="button">Dettagli esperienza &raquo;</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="thumbnail">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <div class="caption">
-                  <h4>Esperienza</h4>
-                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                  <p><a class="btn btn-default" href="esperienza.html" role="button">Dettagli esperienza &raquo;</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="thumbnail">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <div class="caption">
-                  <h4>Esperienza</h4>
-                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                  <p><a class="btn btn-default" href="esperienza.html" role="button">Dettagli esperienza &raquo;</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
+
+
+
+
+					</div>
 
 				</div>
 			</div>
@@ -277,13 +266,13 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="mappasito_logged.html">Mappa sito</a>
+              <a href="mappasito.html">Mappa sito</a>
             </li>
             <li>
-              <a href="privacy_logged.html">Privacy Policy</a>
+              <a href="privacy.html">Privacy Policy</a>
             </li>
             <li>
-              <a href="copyright_logged.html">Copyright</a>
+              <a href="copyright.html">Copyright</a>
             </li>
           </ul>
         </div>
