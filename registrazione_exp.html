@@ -200,15 +200,12 @@
 				<div class="panel-body">
 					<div class="row">
 						<form class="form-horizontal">
-							<fieldset>
-								<!-- Form Name -->
-								<!-- <legend>Registrati!</legend> -->
 
 								<!-- Text input-->
 								<div class="form-group">
 									<label class="col-sm-4 control-label" for="Name">Username</label>  
 									<div class="col-sm-5">
-										<input id="Name" name="Name" type="text" placeholder="Username" class="form-control input-md" required="">
+										<input id="Name" name="Name" type="text" placeholder="Username" class="form-control input-md" required="" value="user">
 									</div>
 								</div>
 
@@ -216,7 +213,7 @@
 								<div class="form-group">
 									<label class="col-sm-4 control-label" for="passwordinput">Password</label>
 									<div class="col-sm-5">
-										<input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md" required="">
+										<input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md" required="" value="meme">
 										<span class="help-block">Massimo 16 caratteri</span>
 									</div>
 								</div>
@@ -225,11 +222,11 @@
 								<div class="form-group">
 									<label class="col-sm-4 control-label" for="confirm_password">Conferma la Password</label>
 									<div class="col-sm-5">
-										<input id="confirm_password" name="confirm_password" type="password" placeholder="Re-inserisci la password" class="form-control input-md" required="">
+										<input id="confirm_password" name="confirm_password" type="password" placeholder="Re-inserisci la password" class="form-control input-md" required="" value="meme">
 									</div>
 								</div>
 
-								<!-- Multiple Radios (inline) -->
+								<!-- Genere -->
 								<div class="form-group">
 									<label class="col-sm-4 control-label" for="gender">Genere</label>
 									<div class="col-sm-4"> 
@@ -248,15 +245,15 @@
 									</div>
 								</div>
 
-								<!-- Textarea -->
+								<!-- Indirizzo -->
 								<div class="form-group">
 									<label class="col-sm-4 control-label" for="address">Indirizzo</label>
 									<div class="col-sm-4">                     
-										<textarea class="form-control" id="address" name="address" placeholder="Via, Piazza"></textarea>
+										<input id="address" name="address" placeholder="Via, Piazza" class="form-control input-md" value="Via Verdi, 9"></input>
 									</div>
 								</div>
 
-								<!-- Select Basic -->
+								<!-- Selezione paese -->
 								<div class="form-group">
 									<label class="col-sm-4 control-label" for="country">Paese</label>
 									<div class="col-sm-5">
@@ -271,19 +268,19 @@
 									</div>
 								</div>
 
-								<!-- Text input-->
+								<!-- Telefono-->
 								<div class="form-group">
 									<label class="col-sm-4 control-label" for="mobilenumber">Numero di telefono</label>  
 									<div class="col-sm-5">
-										<input id="mobilenumber" name="mobilenumber" type="text" placeholder="Numero di telefono" class="form-control input-md" required="">
+										<input id="mobilenumber" name="mobilenumber" type="text" placeholder="Numero di telefono" class="form-control input-md" required="" value="012345678">
 									</div>
 								</div>
 
-								<!-- Text input-->
+								<!-- email-->
 								<div class="form-group">
 									<label class="col-sm-4 control-label" for="emailId">Indirizzo email</label>  
 									<div class="col-sm-5">
-										<input id="emailId" name="emailId" type="email" placeholder="utente@dominio.it" class="form-control input-md" required="">
+										<input id="emailId" name="emailId" type="email" placeholder="utente@dominio.it" class="form-control input-md" required="" value="user@email.com">
 									</div>
 								</div>
 
@@ -293,7 +290,7 @@
 									<div class="col-sm-5">
 										<div class="input-group">
 											<span class="input-group-addon checkbox">     
-												<input type="checkbox" required="">    
+												<input type="checkbox" required="" checked>    
 												Accetto i termini di utilizzo del sito
 											</span>
 										</div>
