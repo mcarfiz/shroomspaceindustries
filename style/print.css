@@ -1,0 +1,18 @@
+@media print {
+	* > img,
+	nav,
+	aside,
+	button,
+	input,
+	.btn,
+	.carousel,
+	.breadcrumb,
+	.no-print {
+		display: none !important;
+	}
+
+	a::after {
+    content: " <" attr(href) ">";
+    color: #666;
+  }
+}
