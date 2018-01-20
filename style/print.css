@@ -11,7 +11,7 @@
 		display: none !important;
 	}
 
-	a::after {
+	img::after {
     content: " <" attr(href) ">";
     color: #666;
   }
